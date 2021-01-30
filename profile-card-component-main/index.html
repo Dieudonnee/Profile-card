@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        body {
+            background-color: hsl(185, 75%, 39%);
+            height: 450px;
+            font-size: 18px;
+            background-size: 680px, 810px;
+            background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+            background-position: left top, bottom right;
+            background-position-x: -9%, 121%;
+            background-position-y: 380%, -170%;
+            background-repeat: no-repeat, no-repeat;
+        }
+
+        .card {
+            width: 350px;
+            height: 380px;
+            background-color: #fff;
+            border-radius: 30px;
+            margin-top: 140px;
+        }
+
+        .img-card {
+            width: 350px;
+            height: 130px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            background-image: url(images/bg-pattern-top.svg );
+            background-size: 800px;
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            position: relative;
+            margin-top: -15%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #fff;
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+            margin: 5px;
+            margin-left: -30px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        h3,
+        h4 {
+            color: hsl(229, 23%, 23%);
+        }
+
+        p {
+            color: hsl(227, 10%, 46%);
+            font-size: 18px;
+        }
+
+        .age {
+            position: absolute;
+            margin: -27px -149px 290px 220px;
+        }
+
+        .lond {
+            margin-bottom: 15px;
+            margin-top: -1px;
+        }
+
+        hr {
+            margin: 0px;
+            color: hsl(0, 0%, 59%);
+        }
+
+        #follo {
+            float: left;
+            margin-top: 10px;
+            margin-left: 40px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .follo1 {
+            float: left;
+            position: relative;
+            margin-left: -50px;
+            margin-top: 40px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .photo {
+            float: left;
+            margin-left: 260px;
+            margin-top: -69px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .photo1 {
+            float: left;
+            margin-left: 260px;
+            margin-top: -38px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .like {
+            padding-right: 89px;
+            padding-top: 10px;
+            margin-bottom: 5px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .like1 {
+            margin: 9px 47px 7px 53px;
+            width: 90px;
+            height: 10px;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+
+        .attribution {
+            margin-top: 110px;
+        }
+
+        .bg-img {
+            width: 300px;
+            position: absolute;
+            padding: 0px;
+            margin: 0;
+            align-items: inherit;
+        }
+
+        body2 {
+            background-image: url(images/bg-pattern-top.svg);
+            background-size: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <div class="card">
+
+            <img class="img-card" src="images/bg-pattern-card.svg" alt="">
+            <img class="profile-img" src="images/image-victor.jpg" alt="">
+            <h4>Victor Crest </h4>
+            <p class="age">26</p>
+
+            <p class="lond">London</p>
+            <hr>
+            <div class="">
+                <h3 id="follo">80K</h3>
+                <p class="follo1">Followers</p>
+
+                <h3 class="like">803K</h3>
+                <p class="like1">Likes</p>
+
+                <h3 class="photo">1.4K</h3>
+                <p class="photo1">Photos</p>
+                <div class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Dieudonne</a>.
+                </div>
+            </div>
+
+    </center>
+
+</body>
+
+</html>
